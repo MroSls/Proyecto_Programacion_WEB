@@ -59,16 +59,16 @@
 ### Tecnologias
 <a name="tecnologias"></a>
 > ###### Front-end
-[x] HTML
-[x] CSS
-[x] Bootstrap
-___
+- [x] HTML
+- [x] CSS
+- [x] Bootstrap
+____
 > ###### Back-end
-[x] JS
-[x] Node.js
-___
+- [x] JS
+- [x] Node.js
+____
 > ###### Base de datos
-[x] MongoDB
+- [x] MongoDB
 
 ---
 
