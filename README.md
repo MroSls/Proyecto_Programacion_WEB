@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Documentación del Proyecto WEB</title>
-    <style>
-        ul {
-            list-style-type: none;
-        }
-        li[type="radio"] {
-            list-style-type: radio;
-        }
-        p {
-            list-style-type: square;
-            margin-left: 20px;
-        }
-    </style>
-</head>
-<body>
-
 <h1>Proyecto WEB</h1>
 <h2>Documentación</h2>
 
@@ -63,6 +44,3 @@
 <p>Para ejecutar el código, simplemente abre la terminal y utiliza el siguiente comando: 'npm run dev'. Este comando ejecuta el código, 
     y lo más interesante es que el servidor se reinicia automáticamente con cada modificación, eliminando la necesidad de reiniciarlo 
     manualmente con 'CTRL + C' y luego ejecutar 'node src/index.js'.</p>
-
-</body>
-</html>
