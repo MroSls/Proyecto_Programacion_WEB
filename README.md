@@ -1,7 +1,7 @@
 # Proyecto WEB
 ## Documentacion
 
-> Aplicacion WEB enfocada a la venta de alimentos secos para perros y gatos en la cual el cliente puede elegir entre la variedad de productos agregada.
+> Aplicacion WEB enfocada a la venta de alimentos secos para perros y gatos en la cual el cliente puede elegir entre la variedad de productos agregados.
 
 > En esta aplicacion existen dos roles fundamentales:
 + [administrador](#administrador)
