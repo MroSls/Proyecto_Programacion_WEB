@@ -66,3 +66,6 @@
     y lo más interesante es que el servidor se reinicia automáticamente con cada modificación, eliminando la necesidad
     de reiniciarlo
     manualmente con 'CTRL + C' y luego ejecutar 'node src/index.js'.</p>
+```
+guzman@GuzmanDynastie:~/Proyecto WEB - package$ npm run dev
+```
