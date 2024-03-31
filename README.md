@@ -1,6 +1,8 @@
 <h1>Proyecto WEB</h1>
 <h2>Documentación</h2>
 
+**Table of Contents**
+
 <h3>Índice</h3>
 <ul>
     <li><a href="#indice-modulos">Módulos para front-end y back-end</a></li>
