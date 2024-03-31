@@ -51,16 +51,16 @@
 
 ### Tecnologias
 <a name="tecnologias"></a>
-> ######Front-end
+> ###### Front-end
 :fa-check-square: HTML
 :fa-check-square: CSS
 :fa-check-square: Bootstrap
 ___
-> ######Back-end
+> ###### Back-end
 :fa-check-square: JS
 :fa-check-square: Node.js
 ___
-> ######Base de datos
+> ###### Base de datos
 :fa-check-square: MongoDB
 
 
