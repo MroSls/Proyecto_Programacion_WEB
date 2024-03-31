@@ -44,6 +44,6 @@
 
 
 
-
+<br><br><br><br>
 ##### Copea y pega el codigo generado en la pagina en este documento
 `<URL para la documentacion> ` https://pandao.github.io/editor.md/en.html
