@@ -7,11 +7,14 @@
 + [administrador](#administrador)
 + [cliente](#cliente)
 
+---
+
 ### Tabla de contenidos
 + [Modulos para el front-end y back-end](#modulos-para-front-end-y-back-end)
 + [¿Cómo ejecutar el programa?](#como-ejecutar-el-programa)
 + [Tecnologias](#tecnologias)
 
+---
 
 ### Modulos para front-end y back-end
 <a name="modulos-para-front-end-y-back-end"></a>
@@ -45,25 +48,29 @@
 > ##### nodemon: - 3.1.0:
 - Herramienta que ayuda a desarrollar aplicaciones basadas en Node.js reiniciando automáticamente la aplicación cuando se detectan cambios en el código fuente.
 
+---
+
 ### ¿Como ejecutar el programa?
 <a name="como-ejecutar-el-programa"></a>
 - Para ejecutar el código, simplemente abre la terminal y utiliza el siguiente comando: `npm run dev`. Este comando ejecuta el código, y lo más interesante es que el servidor se reinicia automáticamente con cada modificación, eliminando la necesidad de reiniciarlo manualmente con `CTRL + C` y luego ejecutar `node src/index.js`.
 
+---
+
 ### Tecnologias
 <a name="tecnologias"></a>
 > ###### Front-end
-:fa-check-square: HTML
-:fa-check-square: CSS
-:fa-check-square: Bootstrap
+[x] HTML
+[x] CSS
+[x] Bootstrap
 ___
 > ###### Back-end
-:fa-check-square: JS
-:fa-check-square: Node.js
+[x] JS
+[x] Node.js
 ___
 > ###### Base de datos
-:fa-check-square: MongoDB
+[x] MongoDB
 
-
+---
 
 
 <br><br><br><br>
