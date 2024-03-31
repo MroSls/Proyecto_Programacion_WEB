@@ -40,8 +40,6 @@
 
 ### ¿Como ejecutar el programa?
 <a name="como-ejecutar-el-programa"></a>
-- Para ejecutar el código, simplemente abre la terminal y utiliza el siguiente comando: 'npm run dev'. Este comando ejecuta el código, y lo más interesante es que el servidor se reinicia automáticamente con cada modificación, eliminando la necesidad de reiniciarlo manualmente con 'CTRL + C' y luego ejecutar 'node src/index.js'.
-
-`npm run dev`
+- Para ejecutar el código, simplemente abre la terminal y utiliza el siguiente comando: `npm run dev`. Este comando ejecuta el código, y lo más interesante es que el servidor se reinicia automáticamente con cada modificación, eliminando la necesidad de reiniciarlo manualmente con `CTRL + C` y luego ejecutar `node src/index.js`.
 
 `<URL para la documentacion> ` https://pandao.github.io/editor.md/en.html#modulos-para-front-end-y-back-end
