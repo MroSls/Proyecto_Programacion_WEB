@@ -200,17 +200,20 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form action="/home/new-user" method="POST">
+                    <form action="/home" method="POST">
                         <div class="input-together">
-                            <input name="input_nombre" type="text" placeholder="Nombre(s)" class="register-input" required>
-                            <input name="input_apellidos" type="text" placeholder="Apellido(s)" class="register-input" required><br>
+                            <input name="name" type="text" placeholder="Nombre(s)" class="register-input"
+                                required>
+                            <input name="surname" type="text" placeholder="Apellido(s)" class="register-input"
+                                required><br>
                         </div>
-                        <input name="input_email" type="email" placeholder="Tu correo" class="register-input" required><br>
-                        <input name="input_password" type="password" placeholder="Contraseña"
-                            class="register-input" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}"><br>
-                        <input name="input_password_2" type="password" placeholder="Confirmar contraseña"
+                        <input name="email" type="email" placeholder="Tu correo" class="register-input"
+                            required><br>
+                        <input name="password" type="password" placeholder="Contraseña" class="register-input"
+                            pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}" required><br>
+                        <input name="password_2" type="password" placeholder="Confirmar contraseña"
                             class="register-input" required><br>
-                        <input type="submit" value="Registrarse" class="registrar">
+                        <input type="submit" value="Registrarse" class="registrar" required>
                     </form>
                 </div>
             </div>
@@ -253,8 +256,8 @@
         crossorigin="anonymous"></script>
 
     <!-- Estructura JS -->
-    <script type="module" src="./assets/JS/index.js"></script>
-    <script type="module" src="./assets/DOM/addProducts.js"></script>
+    <!-- <script type="module" src="./assets/JS/index.js"></script>
+    <script type="module" src="./assets/DOM/addProducts.js"></script> -->
 
 </body>
 
