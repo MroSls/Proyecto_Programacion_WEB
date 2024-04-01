@@ -30,15 +30,21 @@
 > ##### express: - 4.19.2:
 - Framework de Node.js para simplificar la creación de servidores web.
 
+> ##### express-fileupload - 1.5.0:
+- Una biblioteca para Express.js que facilita la carga de archivos. Permite manejar fácilmente las solicitudes de carga de archivos en aplicaciones Express, simplificando el proceso de subida de archivos.
+
 > ##### express-session: - 1.18.0:
 - Almacena temporalmente información de sesión del usuario para mantener la autenticación entre solicitudes
 
 > ##### method-override: - 3.0.0:
 - Extiende la funcionalidad de los métodos HTTP en formularios web, como PUT y DELETE, para manejar solicitudes que no son compatibles con HTML nativo.
 
-> ##### ongoose: - 8.2.4:
+> ##### mongoose: - 8.2.4:
 - Facilita la interacción con bases de datos MongoDB desde Express, proporcionando una interfaz sencilla para la gestión de modelos y consultas.
 
+> ##### multer: - 1.4.5-lts.1:
+- Un middleware para el manejo de archivos en Node.js. Multer es una opción popular para procesar formularios que incluyen carga de archivos en aplicaciones Node.js, ofreciendo una fácil integración con frameworks como Express. La versión 1.4.5-lts.1 puede considerarse una versión LTS (Long-Term Support), lo que significa que se brinda soporte a largo plazo para esta versión específica.
+  
 > ##### passport: - 0.7.0:
 - Middleware de autenticación para Node.js que simplifica el proceso de autenticación de usuarios.
 
