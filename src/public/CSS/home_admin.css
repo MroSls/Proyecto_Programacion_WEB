@@ -67,6 +67,10 @@ nav .navbar-brand:hover {
     justify-content: center;
 }
 
+.input-together input:first-of-type {
+    margin-right: 20px;
+}
+
 .register-input {
     color: black;
     width: 465px;
