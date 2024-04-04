@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Información de Producto</title>
+</head>
+<body>
+    <h1>Información del Producto</h1>
+    <form action="/guardar_informacion" method="POST">
+        <h2>Características del Producto</h2>
+        <label for="mascota_recomendada">Mascota Recomendada:</label>
+        <input type="text" id="mascota_recomendada" name="mascota_recomendada" required><br><br>
+
+        <label for="tamaño_raza">Tamaño de la Raza:</label>
+        <input type="text" id="tamaño_raza" name="tamaño_raza" required><br><br>
+
+        <label for="sabor">Sabor:</label>
+        <input type="text" id="sabor" name="sabor" required><br><br>
+
+        <label for="etapa_vida">Etapa de Vida de la Mascota:</label>
+        <input type="text" id="etapa_vida" name="etapa_vida" required><br><br>
+
+        <label for="tipo_comida">Tipo de Comida:</label>
+        <input type="text" id="tipo_comida" name="tipo_comida" required><br><br>
+
+        <h2>Características Principales</h2>
+        <label for="peso_neto">Peso Neto:</label>
+        <input type="text" id="peso_neto" name="peso_neto" required><br><br>
+
+        <h2>Características de la Mascota</h2>
+        <label for="mascota_recomendada2">Mascota Recomendada:</label>
+        <input type="text" id="mascota_recomendada2" name="mascota_recomendada2" required><br><br>
+
+        <label for="etapa_vida2">Etapa de Vida de la Mascota:</label>
+        <input type="text" id="etapa_vida2" name="etapa_vida2" required><br><br>
+
+        <label for="tamaño_raza2">Tamaño de la Raza:</label>
+        <input type="text" id="tamaño_raza2" name="tamaño_raza2" required><br><br>
+
+        <h2>Especificaciones</h2>
+        <label for="sabor_especificacion">Sabor:</label>
+        <input type="text" id="sabor_especificacion" name="sabor_especificacion" required><br><br>
+
+        <label for="peso_unidad">Peso de la Unidad:</label>
+        <input type="text" id="peso_unidad" name="peso_unidad" required><br><br>
+
+        <label for="tipo_envase">Tipo de Envase:</label>
+        <input type="text" id="tipo_envase" name="tipo_envase" required><br><br>
+
+        <label for="tipo_comida_mascotas">Tipo de Comida para Mascotas:</label>
+        <input type="text" id="tipo_comida_mascotas" name="tipo_comida_mascotas" required><br><br>
+
+        <h2>Ingredientes</h2>
+        <label for="ingredientes">Ingredientes:</label>
+        <textarea id="ingredientes" name="ingredientes" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="proteina_bruta">Proteína Bruta:</label>
+        <input type="text" id="proteina_bruta" name="proteina_bruta" required><br><br>
+
+        <label for="es_protector_salud_oral">Es Protector de la Salud Oral:</label>
+        <input type="checkbox" id="es_protector_salud_oral" name="es_protector_salud_oral"><br><br>
+
+        <h2>Características Generales</h2>
+        <label for="fabricante">Fabricante:</label>
+        <input type="text" id="fabricante" name="fabricante" required><br><br>
+
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" required><br><br>
+
+        <label for="linea">Línea:</label>
+        <input type="text" id="linea" name="linea" required><br><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="otros">Otros:</label>
+        <textarea id="otros" name="otros" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="necesidades_especiales">Necesidades Especiales:</label>
+        <input type="text" id="necesidades_especiales" name="necesidades_especiales" required><br><br>
+
+        <h2>Descripción</h2>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Guardar Información">
+    </form>
+</body>
+</html>
