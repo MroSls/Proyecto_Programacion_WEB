@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 
 // Initilizations
 const app = express();
-require('./database');
+require('./config/database');
 
 // Settings
 app.set('port', process.env.PORT || 3000);
