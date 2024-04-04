@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const path = require('path');
-const htmlFilePath = path.join(__dirname, '..', 'views', 'home.html');
+const htmlFilePath = path.join(__dirname, '..', 'public', 'home.html');
 const userSchema = require('../models/user');
 
 const domain = ['@gmail.com', '@hotmail.com', '@hotmail.es', '@outlook.es', '@outlook.com', '@universidad-une.com'];
