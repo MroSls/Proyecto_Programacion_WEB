@@ -10,7 +10,7 @@ require('./database');
 
 // Settings
 app.set('port', process.env.PORT || 3000);
-app.set('views', path.join(__dirname, 'views'));
+// app.set('public', path.join(__dirname, 'public'));
 
 // Middlewares
 app.use(express.urlencoded({ extended: false }));
