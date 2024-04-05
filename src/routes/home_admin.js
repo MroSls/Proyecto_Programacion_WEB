@@ -20,8 +20,8 @@ function saveImageAdmin(file) {
     return newPath;
 }
 
-function saveImageProduct(file, brand, animalCategory, productCategory) {
-    const destinationDir = `./uploads/images_product/${brand}/${animalCategory}/${productCategory}`;
+function saveImageProduct(file, brand, animalCategory, line, category) {
+    const destinationDir = `./uploads/images_product/${brand}/${animalCategory}/${line}/${category}/`;
     if (!fs.existsSync(destinationDir)) {
         fs.mkdirSync(destinationDir, { recursive: true });
     }
@@ -60,17 +60,22 @@ router.post('/home_admin/admin', imageAdmin.single('image'), async (req, res) =>
 
 // Maneja la solicitud POST para agregar un producto y guarda la información en la base de datos
 router.post('/home_admin/product', imageProduct.array('image_product', 10), async (req, res) => {
-    const { brand, title, productCategory, animalCategory, description, piece, stock, kilogram, pricePerUnit, expiration } = req.body;
+    const { piece, stock, pricePerUnit, expiration, principalCharacteristics, petCharacteristics, specifications, generalCharacteristics, others, description } = req.body;
     const images = [];
+
+    const brand = generalCharacteristics[1];
+    const animalCategory = petCharacteristics[0];
+    const line = generalCharacteristics[2];
+    const category = petCharacteristics[1];
 
     // Guarda todas las imagenes y recopila sus rutas
     req.files.forEach(file => {
-        const imagePath = saveImageProduct(file, brand, animalCategory, productCategory);
+        const imagePath = saveImageProduct(file, brand, animalCategory, line, category);
         images.push(imagePath);
     });
 
     try {
-        const newSchema = new productSchema({ brand, title, productCategory, animalCategory, description, images, piece, stock, kilogram, pricePerUnit, expiration });
+        const newSchema = new productSchema({ images, piece, stock, pricePerUnit, expiration, principalCharacteristics, petCharacteristics, specifications, generalCharacteristics, others, description });
         await newSchema.save();
         res.redirect('/home_admin');
 
